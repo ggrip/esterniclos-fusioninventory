@@ -1,0 +1,8 @@
+# File managed by puppet
+#
+# Do not edit
+<% if @no_proxy == false %>
+proxy = http://proxy_url:port
+<% end %>
+
+server = <%= @glpiserver %>/<%= @uri %>
